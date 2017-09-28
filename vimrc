@@ -6,7 +6,9 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Lokaltog/vim-powerline'
-Plugin 'vim-scripts/xorium.vim'
+Plugin 'jnurmine/Zenburn'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'scrooloose/nerdtree'
 
 call vundle#end()
 filetype plugin indent on
@@ -24,7 +26,7 @@ set t_Co=256
 
 syntax on
 set background=dark
-:silent! colorscheme xorium
+colorscheme zenburn
 hi Normal ctermbg=none
 
 set laststatus=2

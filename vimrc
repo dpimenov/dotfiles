@@ -26,8 +26,8 @@ set t_Co=256
 
 syntax on
 set background=dark
-colorscheme zenburn
 hi Normal ctermbg=none
+colorscheme zenburn
 
 set laststatus=2
 set showtabline=2

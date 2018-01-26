@@ -1,5 +1,7 @@
 set nocompatible
 
+let g:auto_save = 1
+
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
@@ -9,10 +11,10 @@ Plugin 'Lokaltog/vim-powerline'
 Plugin 'jnurmine/Zenburn'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdtree'
+Plugin '907th/vim-auto-save'
 
 call vundle#end()
 filetype plugin indent on
-
 set smartindent
 set tabstop=4
 set shiftwidth=4

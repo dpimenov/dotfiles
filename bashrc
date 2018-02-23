@@ -130,5 +130,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias a='source env/bin/activate'
+alias a='source $(pipenv --venv)/bin/activate'
 alias d='deactivate'
